@@ -1,0 +1,31 @@
+{
+  "name": "gowilds",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/icons-material": "^6.4.7",
+    "@mui/material": "^6.4.7",
+    "@mui/x-date-pickers": "^7.27.3",
+    "@next/font": "13.3.2",
+    "dayjs": "^1.11.13",
+    "next": "13.3.2",
+    "react": "18.2.0",
+    "react-bootstrap": "^1.6.1",
+    "react-countup": "^6.4.2",
+    "react-dom": "18.2.0",
+    "react-nice-select": "^1.0.4",
+    "react-slick": "^0.29.0",
+    "react-visibility-sensor": "^5.1.1",
+    "slick-carousel": "^1.8.1",
+    "uuid": "^11.1.0",
+    "wowjs": "^1.1.3"
+  }
+}
