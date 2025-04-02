@@ -6,6 +6,7 @@ const morgan = require("morgan");
 const flightRoutes = require("./src/routes/flights");
 const bookingRoutes = require("./src/routes/bookings");
 const staysRoutes = require("./src/routes/stays");
+const checkratesRoutes = require("./src/routes/checkrates");
 
 const app = express();
 
@@ -16,6 +17,7 @@ app.use(morgan("combined"));
 app.use("/api/flights", flightRoutes);
 app.use("/api/bookings", bookingRoutes);
 app.use("/api/stays", staysRoutes);
+app.use("/api/hotels/checkrates", checkratesRoutes);
 
 app.use((err, req, res, next) => {
   console.error("Global error handler:", err);
