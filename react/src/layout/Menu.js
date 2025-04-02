@@ -25,56 +25,42 @@ const DeskTopMenu = () => {
           <li className="menu-item has-children">
             <a href="#">
               Home
-              <span className="dd-trigger">
-                <i className="far fa-angle-down" />
-              </span>
+            
+          
             </a>
-            <ul className="sub-menu">
-              <li>
-                <Link href="/">Home 01</Link>
-              </li>
-              <li>
-                <Link href="index-2">Home 02</Link>
-              </li>
-              <li>
-                <Link href="index-3">Home 03</Link>
-              </li>
-              <li>
-                <Link href="index-4">Home 04</Link>
-              </li>
-            </ul>
+         
           </li>
           <li className="menu-item has-children">
             <a href="#">
               Tours
-              <span className="dd-trigger">
+              {/* <span className="dd-trigger">
                 <i className="far fa-angle-down" />
-              </span>
+              </span> */}
             </a>
-            <ul className="sub-menu">
+            {/* <ul className="sub-menu">
               <li>
                 <Link href="tour">Tours</Link>
               </li>
               <li>
                 <Link href="tour-details">Tours Details</Link>
               </li>
-            </ul>
+            </ul> */}
           </li>
           <li className="menu-item has-children">
             <a href="#">
               Destination
-              <span className="dd-trigger">
+              {/* <span className="dd-trigger">
                 <i className="far fa-angle-down" />
-              </span>
+              </span> */}
             </a>
-            <ul className="sub-menu">
+            {/* <ul className="sub-menu">
               <li>
                 <Link href="destination">Destination</Link>
               </li>
               <li>
                 <Link href="destination-details">Destination Details</Link>
               </li>
-            </ul>
+            </ul> */}
           </li>
           <li className="menu-item has-children">
             <a href="#">
@@ -103,7 +89,7 @@ const DeskTopMenu = () => {
               <li>
                 <Link href="about">About Us</Link>
               </li>
-              <li>
+              {/* <li>
                 <Link href="gallery">Our Gallery</Link>
               </li>
               <li>
@@ -111,16 +97,16 @@ const DeskTopMenu = () => {
               </li>
               <li>
                 <Link href="shop">Our Shop</Link>
-              </li>
-              <li>
+              </li> */}
+              {/* <li>
                 <Link href="product-details">Product Details</Link>
-              </li>
+              </li> */}
               <li>
                 <Link href="contact">Contact</Link>
               </li>
             </ul>
           </li>
-          <li className="menu-item search-item">
+          {/* <li className="menu-item search-item">
             <div
               className="search-btn"
               data-bs-toggle="modal"
@@ -129,7 +115,7 @@ const DeskTopMenu = () => {
             >
               <i className="far fa-search" />
             </div>
-          </li>
+          </li> */}
         </ul>
       </nav>
     </Fragment>
@@ -148,11 +134,11 @@ const MobileMenu = () => {
         <li className="menu-item has-children">
           <a href="#">
             Home
-            <span className="dd-trigger" onClick={() => activeMenuSet("home")}>
+            {/* <span className="dd-trigger" onClick={() => activeMenuSet("home")}>
               <i className="far fa-angle-down" />
-            </span>
+            </span> */}
           </a>
-          <ul className="sub-menu" style={activeLi("home")}>
+          {/* <ul className="sub-menu" style={activeLi("home")}>
             <li>
               <Link href="/">Home 01</Link>
             </li>
@@ -165,58 +151,58 @@ const MobileMenu = () => {
             <li>
               <Link href="index-4">Home 04</Link>
             </li>
-          </ul>
+          </ul> */}
         </li>
         <li className="menu-item has-children">
           <a href="#">
             Tours
-            <span className="dd-trigger" onClick={() => activeMenuSet("Tours")}>
+            {/* <span className="dd-trigger" onClick={() => activeMenuSet("Tours")}>
               <i className="far fa-angle-down" />
-            </span>
+            </span> */}
           </a>
-          <ul className="sub-menu" style={activeLi("Tours")}>
+          {/* <ul className="sub-menu" style={activeLi("Tours")}>
             <li>
               <Link href="tour">Tours</Link>
             </li>
             <li>
               <Link href="tour-details">Tours Details</Link>
             </li>
-          </ul>
+          </ul> */}
         </li>
         <li className="menu-item has-children">
           <a href="#">
             Destination
-            <span
+            {/* <span
               className="dd-trigger"
               onClick={() => activeMenuSet("Destination")}
             >
               <i className="far fa-angle-down" />
-            </span>
+            </span> */}
           </a>
-          <ul className="sub-menu" style={activeLi("Destination")}>
+          {/* <ul className="sub-menu" style={activeLi("Destination")}>
             <li>
               <Link href="destination">Destination</Link>
             </li>
             <li>
               <Link href="destination-details">Destination Details</Link>
             </li>
-          </ul>
+          </ul> */}
         </li>
         <li className="menu-item has-children">
           <a href="#">
             Blog
-            <span className="dd-trigger" onClick={() => activeMenuSet("Blog")}>
+            {/* <span className="dd-trigger" onClick={() => activeMenuSet("Blog")}>
               <i className="far fa-angle-down" />
-            </span>
+            </span> */}
           </a>
-          <ul className="sub-menu" style={activeLi("Blog")}>
+          {/* <ul className="sub-menu" style={activeLi("Blog")}>
             <li>
               <Link href="blog-list">Blog List</Link>
             </li>
             <li>
               <Link href="blog-details">Blog Details</Link>
             </li>
-          </ul>
+          </ul> */}
         </li>
         <li className="menu-item has-children">
           <a href="#">
@@ -229,7 +215,7 @@ const MobileMenu = () => {
             <li>
               <Link href="about">About Us</Link>
             </li>
-            <li>
+            {/* <li>
               <Link href="gallery">Our Gallery</Link>
             </li>
             <li>
@@ -240,20 +226,20 @@ const MobileMenu = () => {
             </li>
             <li>
               <Link href="product-details">Product Details</Link>
-            </li>
+            </li> */}
             <li>
               <Link href="contact">Contact</Link>
             </li>
           </ul>
         </li>
         <li className="menu-item search-item">
-          <div
+          {/* <div
             className="search-btn"
             data-bs-toggle="modal"
             data-bs-target="#search-modal"
           >
             <i className="far fa-search" />
-          </div>
+          </div> */}
         </li>
       </ul>
     </nav>

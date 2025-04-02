@@ -128,7 +128,7 @@ const Header3 = () => {
               </div>
             </div>
             {/*====== Nav Right Item ======*/}
-            <div className="nav-right-item">
+            {/* <div className="nav-right-item">
               <div className="lang-dropdown">
                 <select className="wide">
                   <option value="English">English</option>
@@ -148,7 +148,7 @@ const Header3 = () => {
                 <span />
                 <span />
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

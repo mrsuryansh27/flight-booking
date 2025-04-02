@@ -2,7 +2,7 @@ import Link from "next/link";
 import Menu from "../Menu";
 const Header4 = () => {
   return (
-    <header className="header-area header-four transparent-header">
+    <header className="header-area header-one transparent-header">
       {/*====== Header Navigation ======*/}
       <div className="header-navigation">
         <div className="nav-overlay" />
@@ -53,10 +53,10 @@ const Header4 = () => {
               <Menu />
               {/*====== Menu Button ======*/}
               <div className="menu-button mt-40 d-xl-none">
-                <Link legacyBehavior href="/contact">
+                <Link legacyBehavior href="tel:+919354249191">
                   <a className="main-btn secondary-btn">
-                    Book Now
-                    <i className="fas fa-paper-plane" />
+                    Call Now
+                    <i className="fas fa-phone" />
                   </a>
                 </Link>
               </div>
@@ -64,10 +64,10 @@ const Header4 = () => {
             {/*====== Nav Right Item ======*/}
             <div className="nav-right-item">
               <div className="menu-button d-xl-block d-none">
-                <Link legacyBehavior href="/contact">
+                <Link legacyBehavior href="tel:+919354249191">
                   <a className="main-btn primary-btn">
-                    Book Now
-                    <i className="fas fa-paper-plane" />
+                    Call Now
+                    <i className="fas fa-phone" />
                   </a>
                 </Link>
               </div>

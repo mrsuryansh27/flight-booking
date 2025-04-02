@@ -129,16 +129,16 @@ const DefaultHeader = () => {
             </div>
             {/*====== Nav Right Item ======*/}
             <div className="nav-right-item">
-              <div className="lang-dropdown">
+              {/* <div className="lang-dropdown">
                 <select className="wide">
                   <option value="English">English</option>
                   <option value="French">French</option>
                 </select>
-              </div>
+              </div> */}
               <div className="menu-button d-xl-block d-none">
                 <Link legacyBehavior href="/contact">
                   <a className="main-btn primary-btn">
-                    Book Now
+                    Call Now 
                     <i className="fas fa-paper-plane" />
                   </a>
                 </Link>
