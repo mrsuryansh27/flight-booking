@@ -41,12 +41,18 @@ const Contact = () => {
                 <div className="info">
                   <span className="title">Email Address</span>
                   <p>
-                    <a href="mailto:supportinfo@gmail.com">
-                      supportinfo@gmail.com
+                    <a href="mailto:Support@starluxTravels.com
+
+">
+                      
+Support@starluxTravels.com
                     </a>
                   </p>
                   <p>
-                    <a href="mailto:traveladventure.net">traveladventure.net</a>
+                    <a href="mailto:
+Connect@starluxTravels.com
+">
+                    Connect@starluxTravels.com</a>
                   </p>
                 </div>
               </div>

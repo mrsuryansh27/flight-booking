@@ -24,6 +24,6 @@ app.use((err, req, res, next) => {
   res.status(500).json({ error: "Internal server error" });
 });
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 5020;
 app.listen(PORT, () => console.log(`✅ Server running on port ${PORT}`));
 console.log("Loaded Token:", process.env.DUFFEL_API_KEY);

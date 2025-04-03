@@ -10,8 +10,8 @@ const DefaultHeader = () => {
             <div className="col-xl-3 d-none d-xl-block">
               {/*====== Site Branding ======*/}
               <div className="site-brading">
-                <Link legacyBehavior href="/index-3">
-                  <a className="brand-logo">
+                <Link legacyBehavior href="/">
+                  <a className="brand-logo"> 
                     <img src="assets/images/logo/logo-black.png" alt="Logo" />
                   </a>
                 </Link>
@@ -43,8 +43,9 @@ const DefaultHeader = () => {
                         <div className="info">
                           <span className="title">Email Address</span>
                           <h5>
-                            <a href="mailto:support@gmail.com">
-                              support@gmail.com
+                            <a href="mailto:Support@starluxTravels.com
+">
+                            Support@starluxTravels.com
                             </a>
                           </h5>
                         </div>
@@ -121,7 +122,7 @@ const DefaultHeader = () => {
               <div className="menu-button mt-40 d-xl-none">
                 <Link legacyBehavior href="/contact">
                   <a className="main-btn secondary-btn">
-                    Book Now
+                    Call Now
                     <i className="fas fa-paper-plane" />
                   </a>
                 </Link>

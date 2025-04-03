@@ -26,12 +26,28 @@ const PassengerDropdown = ({ value, onChange }) => {
   };
 
   const handleIncrement = (type) => {
+    const total =
+      passengers.adults + passengers.children + passengers.infants;
+    // Restriction 1: Total passengers cannot exceed 9
+    if (total >= 9) return;
+  
+    // Restriction 2: Infants cannot be more than adults
+    if (type === "infants" && passengers.infants >= passengers.adults) return;
+  
     setPassengers((prev) => ({ ...prev, [type]: prev[type] + 1 }));
   };
-
+  
   const handleDecrement = (type, minValue) => {
-    setPassengers((prev) => ({ ...prev, [type]: Math.max(minValue, prev[type] - 1) }));
+    // For adults, ensure that decrementing does not result in fewer adults than infants.
+    if (type === "adults") {
+      if (passengers.adults <= minValue || passengers.adults - 1 < passengers.infants)
+        return;
+    } else {
+      if (passengers[type] <= minValue) return;
+    }
+    setPassengers((prev) => ({ ...prev, [type]: prev[type] - 1 }));
   };
+  
 
   const totalPassengers = passengers.adults + passengers.children + passengers.infants;
 

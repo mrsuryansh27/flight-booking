@@ -9,28 +9,30 @@ const Header4 = () => {
         <div className="container-fluid">
           <div className="primary-menu">
             {/*====== Site Branding ======*/}
-            <div className="site-branding">
+            <div className="site-branding ">
+  <Link legacyBehavior href="/">
+    <a className="brand-logo ">
+      <img
+        className=" logo-img "
+        src="assets/images/logo/logo-black.png"
+        alt="Site Logo"
+      />
+    </a>
+  </Link>
+</div>
+            {/*====== Nav Menu ======*/}
+            <div className="nav-menu">
+              {/*====== Site Branding ======*/}
+              <div className="mobile-logo mb-30 d-block d-xl-none">
               <Link legacyBehavior href="/">
-                <a className="brand-logo">
+                <a className="brand-logo h-12 w-1/2">
                   <img
+                    className="h-12 w-full logo-img"
                     src="assets/images/logo/logo-black.png"
                     alt="Site Logo"
                   />
                 </a>
               </Link>
-            </div>
-            {/*====== Nav Menu ======*/}
-            <div className="nav-menu">
-              {/*====== Site Branding ======*/}
-              <div className="mobile-logo mb-30 d-block d-xl-none">
-                <Link legacyBehavior href="/">
-                  <a className="brand-logo">
-                    <img
-                      src="assets/images/logo/logo-black.png"
-                      alt="Site Logo"
-                    />
-                  </a>
-                </Link>
               </div>
               {/*=== Nav Search ===*/}
               <div className="nav-search mb-30 d-block d-xl-none ">

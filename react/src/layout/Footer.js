@@ -91,9 +91,9 @@ const Footer = ({ bg, extraClass }) => {
                     </li>
                   </ul>
                   <ul className="footer-widget-nav">
-                    <li>
+                    {/* <li>
                       <a href="#">Need a Career ?</a>
-                    </li>
+                    </li> */}
                     <li>
                       <a href="#">Latest News &amp; Blog</a>
                     </li>
@@ -142,7 +142,7 @@ const Footer = ({ bg, extraClass }) => {
               {/*=== Footer Text ===*/}
               <div className="footer-text">
                 <p>
-                  Copy@ 2023 <span style={{ color: "#F7921E" }}>GoWilds</span>,
+                  Copy@ 2025 <span style={{ color: "#F7921E" }}>StarLux Travels</span>,
                   All Right Reserved
                 </p>
               </div>

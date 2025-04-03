@@ -31,7 +31,7 @@ const Index4 = () => {
                 {/*=== Hero Content ===*/}
                 <div className="hero-content">
                   <span className="sub-title wow fadeInUp" data-wow-delay=".3s">
-                    Welcome to GoWilds
+                    Welcome to StarLux Travels 
                   </span>
                   <h1 className="wow fadeInDown" data-wow-delay=".5s">
                     Explore Dream Tour &amp; Travels
@@ -1056,82 +1056,7 @@ const Index4 = () => {
       </section>
       {/*====== End Testimonial Section ======*/}
       {/*====== Start Partners Section ======*/}
-      <section className="partners-section black-dark-bg">
-        <div className="container">
-          {/*=== Partners Slider ===*/}
-          <Slider
-            {...partnerSliderOne}
-            className="partner-slider-one pt-80 pb-50 wow fadeInUp"
-          >
-            {/*=== Partner Item ===*/}
-            <div className="single-partner-item">
-              <div className="partner-img">
-                <a href="#">
-                  <img
-                    src="assets/images/partner/partner-6.png"
-                    alt="Partner Image"
-                  />
-                </a>
-              </div>
-            </div>
-            {/*=== Partner Item ===*/}
-            <div className="single-partner-item">
-              <div className="partner-img">
-                <a href="#">
-                  <img
-                    src="assets/images/partner/partner-7.png"
-                    alt="Partner Image"
-                  />
-                </a>
-              </div>
-            </div>
-            {/*=== Partner Item ===*/}
-            <div className="single-partner-item">
-              <div className="partner-img">
-                <a href="#">
-                  <img
-                    src="assets/images/partner/partner-8.png"
-                    alt="Partner Image"
-                  />
-                </a>
-              </div>
-            </div>
-            {/*=== Partner Item ===*/}
-            <div className="single-partner-item">
-              <div className="partner-img">
-                <a href="#">
-                  <img
-                    src="assets/images/partner/partner-9.png"
-                    alt="Partner Image"
-                  />
-                </a>
-              </div>
-            </div>
-            {/*=== Partner Item ===*/}
-            <div className="single-partner-item">
-              <div className="partner-img">
-                <a href="#">
-                  <img
-                    src="assets/images/partner/partner-10.png"
-                    alt="Partner Image"
-                  />
-                </a>
-              </div>
-            </div>
-            {/*=== Partner Item ===*/}
-            <div className="single-partner-item">
-              <div className="partner-img">
-                <a href="#">
-                  <img
-                    src="assets/images/partner/partner-7.png"
-                    alt="Partner Image"
-                  />
-                </a>
-              </div>
-            </div>
-          </Slider>
-        </div>
-      </section>
+      
       {/*====== End Partners Section ======*/}
     </Layout>
   );

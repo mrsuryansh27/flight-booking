@@ -210,9 +210,9 @@ iframe {
   display: inherit;
 }
 
-img {
+/* img {
   max-width: 100%;
-}
+} */
 
 body {
   font-weight: normal;
